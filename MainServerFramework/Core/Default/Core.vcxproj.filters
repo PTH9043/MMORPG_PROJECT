@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{85e456d7-b714-4561-a1d7-50cd6849c3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Utility">
+      <UniqueIdentifier>{8523697b-cf34-4a40-8b9a-b800fe4bd3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.CoreGrobal">
+      <UniqueIdentifier>{8370e217-d676-4088-86e4-26c927bf5449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Utility\Memory">
+      <UniqueIdentifier>{4a7017e9-9a1e-4cc6-9ab9-9b05b25f8fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Utility\SmartPointer">
+      <UniqueIdentifier>{247a9615-b7ee-49c0-9d51-3b510ccb817f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\CoreFunc">
+      <UniqueIdentifier>{54cbe812-79af-4b4f-a03e-3f51aa40e356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Utility\Math">
+      <UniqueIdentifier>{335c6c28-444e-44ee-b58e-3b00d913872d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Utility\String">
+      <UniqueIdentifier>{43cbb1db-7214-48e9-9701-12ccaefe84f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manger">
+      <UniqueIdentifier>{e5dd9546-2218-4e9c-963b-946821898930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\CoreStatic">
+      <UniqueIdentifier>{0cf25e43-2e43-4f59-9e57-c4e0696e5490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Utility\IDGenerator">
+      <UniqueIdentifier>{3704541d-674d-4e36-95db-18fa27104f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object">
+      <UniqueIdentifier>{fb3cae78-c86c-4dca-a30b-08386bb8fdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Super">
+      <UniqueIdentifier>{ad75a618-4b7c-45d6-9325-daf214d4c629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Interface">
+      <UniqueIdentifier>{3118c940-570d-48ba-a780-48accc3ced57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Unit">
+      <UniqueIdentifier>{85282fc7-f9f9-4573-9596-434ececc805d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\Session">
+      <UniqueIdentifier>{02ab16d7-e436-4715-b026-209a21fc0313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\Room">
+      <UniqueIdentifier>{97407aaf-b6e6-4086-83b2-85b35b9fc640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Object\Service">
+      <UniqueIdentifier>{96868e77-a805-481e-b725-d1908eab5c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manger\TaskQueue">
+      <UniqueIdentifier>{d8f564bf-2818-499d-9012-26e8c14b5ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manger\ThreadManger">
+      <UniqueIdentifier>{7cc30bd2-4e02-4c63-8419-46a1d4b33296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Manger\LogManger">
+      <UniqueIdentifier>{5b9b0cb3-6bc5-4d2d-948a-9e2b5bdcfd3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\CoreDefines.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACoreGlobal.h">
+      <Filter>00.CoreGrobal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Memory.h">
+      <Filter>98.Utility\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SmartPointer.h">
+      <Filter>98.Utility\SmartPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DefaultTypedef.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreMacro.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreFunc.h">
+      <Filter>99.Default\CoreFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Allocator.h">
+      <Filter>98.Utility\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACoreBase.h">
+      <Filter>96.Super</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CustomMath.h">
+      <Filter>98.Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CustomString.h">
+      <Filter>98.Utility\String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\STLTypedef.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreStatic.h">
+      <Filter>99.Default\CoreStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ARoom.h">
+      <Filter>04.Object\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AService.h">
+      <Filter>04.Object\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\IDGenerator.h">
+      <Filter>98.Utility\IDGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreStruct.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACoreUnit.h">
+      <Filter>96.Super</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ILogEntity.h">
+      <Filter>97.Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AAsyncDispatcher.h">
+      <Filter>06.Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ATask.h">
+      <Filter>06.Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreConcept.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ASession.h">
+      <Filter>04.Object\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACoreObject.h">
+      <Filter>04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CoreEnum.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ACoreManger.h">
+      <Filter>01.Manger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ATaskQueue.h">
+      <Filter>01.Manger\TaskQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AThreadManger.h">
+      <Filter>01.Manger\ThreadManger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\ACoreGlobal.cpp">
+      <Filter>00.CoreGrobal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Memory.cpp">
+      <Filter>98.Utility\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SmartPointer.cpp">
+      <Filter>98.Utility\SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CoreFunc.cpp">
+      <Filter>99.Default\CoreFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Allocator.cpp">
+      <Filter>98.Utility\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ACoreBase.cpp">
+      <Filter>96.Super</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CustomMath.cpp">
+      <Filter>98.Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CustomString.cpp">
+      <Filter>98.Utility\String</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CoreStatic.cpp">
+      <Filter>99.Default\CoreStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ARoom.cpp">
+      <Filter>04.Object\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AService.cpp">
+      <Filter>04.Object\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\IDGenerator.cpp">
+      <Filter>98.Utility\IDGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ACoreUnit.cpp">
+      <Filter>96.Super</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ILogEntity.cpp">
+      <Filter>97.Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AAsyncDispatcher.cpp">
+      <Filter>06.Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ATask.cpp">
+      <Filter>06.Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ASession.cpp">
+      <Filter>04.Object\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ACoreObject.cpp">
+      <Filter>04.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ACoreManger.cpp">
+      <Filter>01.Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ATaskQueue.cpp">
+      <Filter>01.Manger\TaskQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AThreadManger.cpp">
+      <Filter>01.Manger\ThreadManger</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
